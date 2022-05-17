@@ -1,0 +1,16 @@
+<!-- app/views/restaurants/_form.html.erb -->
+<%= form_for(article) do |t| %>
+  <%= t.label :title %>
+  <br>
+  <%= t.text_field :title %>
+  <br>
+  <%= t.label :content %>
+  <br>
+  <%= t.text_field :content %>
+  <br>
+  <% if article.persisted? %>
+    <%= t.submit 'Edit article'%>
+  <% else %>
+    <%= t.submit 'Create article'%>
+  <% end %>
+<% end  %>

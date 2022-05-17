@@ -13,3 +13,67 @@
  *= require_tree .
  *= require_self
  */
+ @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Roboto+Slab&family=Roboto:wght@100;400&display=swap');
+
+
+ body {
+}
+
+ .header {
+  display:flex;
+  background-color: #F8F8F8;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+ }
+
+ .container {
+  width: 800px;
+  text-align: left;
+ }
+
+ .top {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+ }
+
+ .top > h1 {
+  width: 100%;
+  border-bottom : 1px solid black;
+  font-family: 'roboto slab';
+ }
+
+ .article > h2 > a {
+   text-decoration: none;
+   color:#337ab7;
+   margin-top: 10px;
+   opacity:0.8;
+ }
+
+ .article > h2 > a:hover {
+  opacity: 1;
+  text-decoration: underline;
+ }
+
+ .article > h4 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 120%;
+  padding: 10px;
+ }
+
+ .header > h3,
+ .header > h6 {
+  color: #777;
+  font-size: 17px;
+  padding:0;
+  margin-bottom: 0;
+ }
+
+ h6 > a {
+   text-decoration: none;
+   font-size: 15px;
+   color: #777;
+ }
